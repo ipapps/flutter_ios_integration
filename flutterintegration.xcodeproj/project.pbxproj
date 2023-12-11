@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		10C14C280E1AF71F0AEEA0F6 /* Pods_flutterintegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161240962522C25E37275DC3 /* Pods_flutterintegration.framework */; };
-		C9239D6C2B23657C00758A92 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9239D692B23657C00758A92 /* FlutterPluginRegistrant.xcframework */; };
-		C9239D6D2B23657C00758A92 /* path_provider_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9239D6A2B23657C00758A92 /* path_provider_foundation.xcframework */; };
-		C9239D6E2B23657C00758A92 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9239D6B2B23657C00758A92 /* App.xcframework */; };
-		C9239D722B23668D00758A92 /* path_provider_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9239D6F2B23668D00758A92 /* path_provider_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C9239D732B23668D00758A92 /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9239D702B23668D00758A92 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C9239D742B23668D00758A92 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9239D712B23668D00758A92 /* FlutterPluginRegistrant.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9239D752B270B0C00758A92 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9239D6B2B23657C00758A92 /* App.xcframework */; };
+		C9239D762B270B0C00758A92 /* App.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9239D6B2B23657C00758A92 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9239D772B270B0E00758A92 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9239D692B23657C00758A92 /* FlutterPluginRegistrant.xcframework */; };
+		C9239D782B270B0E00758A92 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9239D692B23657C00758A92 /* FlutterPluginRegistrant.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9239D792B270B1000758A92 /* path_provider_foundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9239D6A2B23657C00758A92 /* path_provider_foundation.xcframework */; };
+		C9239D7A2B270B1000758A92 /* path_provider_foundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9239D6A2B23657C00758A92 /* path_provider_foundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C9722EAB2B0E4B2500CC8E11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9722EAA2B0E4B2500CC8E11 /* AppDelegate.swift */; };
 		C9722EAD2B0E4B2500CC8E11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9722EAC2B0E4B2500CC8E11 /* SceneDelegate.swift */; };
 		C9722EAF2B0E4B2500CC8E11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9722EAE2B0E4B2500CC8E11 /* ViewController.swift */; };
@@ -29,9 +29,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C9239D722B23668D00758A92 /* path_provider_foundation.xcframework in Embed Frameworks */,
-				C9239D732B23668D00758A92 /* App.xcframework in Embed Frameworks */,
-				C9239D742B23668D00758A92 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */,
+				C9239D782B270B0E00758A92 /* FlutterPluginRegistrant.xcframework in Embed Frameworks */,
+				C9239D7A2B270B1000758A92 /* path_provider_foundation.xcframework in Embed Frameworks */,
+				C9239D762B270B0C00758A92 /* App.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,9 +48,6 @@
 		C9239D692B23657C00758A92 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = ../flutter_module/build/ios/framework/Debug/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
 		C9239D6A2B23657C00758A92 /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_foundation.xcframework; path = ../flutter_module/build/ios/framework/Debug/path_provider_foundation.xcframework; sourceTree = "<group>"; };
 		C9239D6B2B23657C00758A92 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ../flutter_module/build/ios/framework/Debug/App.xcframework; sourceTree = "<group>"; };
-		C9239D6F2B23668D00758A92 /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_foundation.xcframework; path = ../flutter_module/build/ios/framework/Debug/path_provider_foundation.xcframework; sourceTree = "<group>"; };
-		C9239D702B23668D00758A92 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ../flutter_module/build/ios/framework/Debug/App.xcframework; sourceTree = "<group>"; };
-		C9239D712B23668D00758A92 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = ../flutter_module/build/ios/framework/Debug/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
 		C9722EA72B0E4B2500CC8E11 /* flutterintegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flutterintegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9722EAA2B0E4B2500CC8E11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9722EAC2B0E4B2500CC8E11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,10 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9239D6C2B23657C00758A92 /* FlutterPluginRegistrant.xcframework in Frameworks */,
-				C9239D6D2B23657C00758A92 /* path_provider_foundation.xcframework in Frameworks */,
-				C9239D6E2B23657C00758A92 /* App.xcframework in Frameworks */,
+				C9239D792B270B1000758A92 /* path_provider_foundation.xcframework in Frameworks */,
 				10C14C280E1AF71F0AEEA0F6 /* Pods_flutterintegration.framework in Frameworks */,
+				C9239D772B270B0E00758A92 /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				C9239D752B270B0C00758A92 /* App.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,9 +90,6 @@
 		C9722E9E2B0E4B2500CC8E11 = {
 			isa = PBXGroup;
 			children = (
-				C9239D702B23668D00758A92 /* App.xcframework */,
-				C9239D712B23668D00758A92 /* FlutterPluginRegistrant.xcframework */,
-				C9239D6F2B23668D00758A92 /* path_provider_foundation.xcframework */,
 				C9722EA92B0E4B2500CC8E11 /* flutterintegration */,
 				C9722EA82B0E4B2500CC8E11 /* Products */,
 				206326BD8AC200CFBBDD1FDD /* Pods */,
