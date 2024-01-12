@@ -5,7 +5,4 @@ target 'flutterintegration' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for flutterintegration
-  pod 'Flutter', :podspec => './flutter_module/Flutter.podspec'
-
 end
