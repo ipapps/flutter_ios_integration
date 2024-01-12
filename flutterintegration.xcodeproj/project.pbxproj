@@ -57,11 +57,11 @@
 		C9722EB62B0E4B2600CC8E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9722EB82B0E4B2600CC8E11 /* Info-Debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Debug.plist"; sourceTree = "<group>"; };
 		C9DF07F42B514656002DC1EE /* Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Release.plist"; sourceTree = "<group>"; };
-		C9DF08072B5186B7002DC1EE /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_foundation.xcframework; path = flutter_module/Release/path_provider_foundation.xcframework; sourceTree = "<group>"; };
-		C9DF08082B5186B7002DC1EE /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = flutter_module/Release/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
-		C9DF08092B5186B7002DC1EE /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = flutter_module/Release/App.xcframework; sourceTree = "<group>"; };
-		C9DF080A2B5186B7002DC1EE /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = flutter_module/Release/Flutter.xcframework; sourceTree = "<group>"; };
-		C9DF080B2B5186B8002DC1EE /* share_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = share_plus.xcframework; path = flutter_module/Release/share_plus.xcframework; sourceTree = "<group>"; };
+		C9DF08072B5186B7002DC1EE /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_foundation.xcframework; path = "flutter_module/$(CONFIGURATION)/path_provider_foundation.xcframework"; sourceTree = "<group>"; };
+		C9DF08082B5186B7002DC1EE /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = "flutter_module/$(CONFIGURATION)/FlutterPluginRegistrant.xcframework"; sourceTree = "<group>"; };
+		C9DF08092B5186B7002DC1EE /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = "flutter_module/$(CONFIGURATION)/App.xcframework"; sourceTree = "<group>"; };
+		C9DF080A2B5186B7002DC1EE /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = "flutter_module/$(CONFIGURATION)/Flutter.xcframework"; sourceTree = "<group>"; };
+		C9DF080B2B5186B8002DC1EE /* share_plus.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = share_plus.xcframework; path = "flutter_module/$(CONFIGURATION)/share_plus.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -388,9 +388,7 @@
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_ROOT}/Flutter\"",
-					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter\"",
-					"\"${PROJECT_DIR}/Flutter/Debug",
+					"${PROJECT_DIR}/flutter_module/Debug",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "flutterintegration/Info-$(CONFIGURATION).plist";
@@ -424,9 +422,7 @@
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_ROOT}/Flutter\"",
-					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flutter\"",
-					"\"${PROJECT_DIR}/Flutter/Release",
+					"${PROJECT_DIR}/flutter_module/$(CONFIGURATION)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "flutterintegration/Info-$(CONFIGURATION).plist";
