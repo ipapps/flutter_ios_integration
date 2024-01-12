@@ -6,6 +6,6 @@ target 'flutterintegration' do
   use_frameworks!
 
   # Pods for flutterintegration
-  pod 'Flutter', :podspec => '/Users/davidfournier/Projects/flutter_module/build/ios/framework/Debug/Flutter.podspec'
+  pod 'Flutter', :podspec => './flutter_module/Flutter.podspec'
 
 end

@@ -1,16 +1,16 @@
 PODS:
-  - Flutter (3.16.300)
+  - Flutter (3.16.500)
 
 DEPENDENCIES:
-  - Flutter (from `/Users/davidfournier/Projects/flutter_module/build/ios/framework/Debug/Flutter.podspec`)
+  - Flutter (from `./flutter_module/Flutter.podspec`)
 
 EXTERNAL SOURCES:
   Flutter:
-    :podspec: "/Users/davidfournier/Projects/flutter_module/build/ios/framework/Debug/Flutter.podspec"
+    :podspec: "./flutter_module/Flutter.podspec"
 
 SPEC CHECKSUMS:
-  Flutter: 207eacd1ff51c04710b8b029b905fc051f537880
+  Flutter: 756a5f8b59f90fa59440a557dda6814cf6c22571
 
-PODFILE CHECKSUM: 21ee06f8cd5615959d47a0b27355b8c16a571c27
+PODFILE CHECKSUM: 9ed46fa0310f4c3bac8c37ae70d2d4be8d78ad6a
 
 COCOAPODS: 1.14.3
