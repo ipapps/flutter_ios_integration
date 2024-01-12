@@ -20,6 +20,7 @@
 		C9722EB22B0E4B2500CC8E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9722EB02B0E4B2500CC8E11 /* Main.storyboard */; };
 		C9722EB42B0E4B2600CC8E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9722EB32B0E4B2600CC8E11 /* Assets.xcassets */; };
 		C9722EB72B0E4B2600CC8E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9722EB52B0E4B2600CC8E11 /* LaunchScreen.storyboard */; };
+		C9DF07F52B514656002DC1EE /* Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9DF07F42B514656002DC1EE /* Info-Release.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,12 +56,13 @@
 		C9722EB12B0E4B2500CC8E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9722EB32B0E4B2600CC8E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9722EB62B0E4B2600CC8E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C9722EB82B0E4B2600CC8E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9722EB82B0E4B2600CC8E11 /* Info-Debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Debug.plist"; sourceTree = "<group>"; };
 		C9722EBE2B0E690400CC8E11 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = Pods/Flutter/Flutter.xcframework; sourceTree = "<group>"; };
 		C9722EC02B0E6A2900CC8E11 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = ../matchstv_module/build/ios/framework/Debug/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
 		C9722EC22B0E6AE500CC8E11 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ../matchtv_flutter/build/ios/framework/Debug/App.xcframework; sourceTree = "<group>"; };
 		C9722EC42B0E6B1800CC8E11 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = ../matchstv_module/build/ios/framework/Debug/App.xcframework; sourceTree = "<group>"; };
 		C9722EC62B0E6B2A00CC8E11 /* path_provider_foundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = path_provider_foundation.xcframework; path = ../matchstv_module/build/ios/framework/Debug/path_provider_foundation.xcframework; sourceTree = "<group>"; };
+		C9DF07F42B514656002DC1EE /* Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Release.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +110,14 @@
 		C9722EA92B0E4B2500CC8E11 /* flutterintegration */ = {
 			isa = PBXGroup;
 			children = (
+				C9DF07F42B514656002DC1EE /* Info-Release.plist */,
 				C9722EAA2B0E4B2500CC8E11 /* AppDelegate.swift */,
 				C9722EAC2B0E4B2500CC8E11 /* SceneDelegate.swift */,
 				C9722EAE2B0E4B2500CC8E11 /* ViewController.swift */,
 				C9722EB02B0E4B2500CC8E11 /* Main.storyboard */,
 				C9722EB32B0E4B2600CC8E11 /* Assets.xcassets */,
 				C9722EB52B0E4B2600CC8E11 /* LaunchScreen.storyboard */,
-				C9722EB82B0E4B2600CC8E11 /* Info.plist */,
+				C9722EB82B0E4B2600CC8E11 /* Info-Debug.plist */,
 			);
 			path = flutterintegration;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				C9722EB72B0E4B2600CC8E11 /* LaunchScreen.storyboard in Resources */,
 				C9722EB42B0E4B2600CC8E11 /* Assets.xcassets in Resources */,
+				C9DF07F52B514656002DC1EE /* Info-Release.plist in Resources */,
 				C9722EB22B0E4B2500CC8E11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,7 +417,7 @@
 					"\"${PROJECT_DIR}/Flutter/Debug",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = flutterintegration/Info.plist;
+				INFOPLIST_FILE = "flutterintegration/Info-$(CONFIGURATION).plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -449,7 +453,7 @@
 					"\"${PROJECT_DIR}/Flutter/Release",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = flutterintegration/Info.plist;
+				INFOPLIST_FILE = "flutterintegration/Info-$(CONFIGURATION).plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
